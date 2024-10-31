@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f4f9; /* Light Gray Background */
+    color: #333333; /* Default Dark Gray for text */
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #f2a154; /* Soft Orange for headings */
+}
+
+h2 {
+    color: #1f3c88; /* Deep Blue for subtext */
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.job-sector {
+    margin-bottom: 40px;
+    border-bottom: 1px solid #cccccc; /* Light Gray Border */
+    padding-bottom: 20px;
+}
+
+.job-sector ul {
+    list-style: none;
+}
+
+.job-sector ul li {
+    margin-bottom: 10px;
+}
+
+.job-sector ul li a {
+    color: #1f3c88; /* Deep Blue for links */
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+.job-sector ul li a:hover {
+    color: #f2a154; /* Soft Orange on hover */
+}
+
+.job-sector ul li a:active {
+    color: #000000; /* Black for selected text */
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .job-sector ul li a {
+        font-size: 1em;
+    }
+}
